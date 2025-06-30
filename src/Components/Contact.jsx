@@ -3,6 +3,7 @@ import { FaFacebook, FaFacebookF, FaGithub, FaInstagram, FaTwitter } from 'react
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Link } from 'react-router';
+import Swal from 'sweetalert2';
 
 const Contact = () => {
 
@@ -17,7 +18,11 @@ const Contact = () => {
       })
       .then(
         () => {
-          console.log('SUCCESS!');
+          Swal.fire({
+  title: "Message Sent!",
+  icon: "success",
+  draggable: true
+});
         },
         (error) => {
           console.log('FAILED...', error.text);
