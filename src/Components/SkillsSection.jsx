@@ -32,7 +32,7 @@ const skills = {
 const SkillsSection = () => {
   return (
     <section className="py-16 bg-gray-50" id="skills">
-      <div className="max-w-5xl mx-auto px-4">
+      <div className="w-11/12 md:w-10/12 mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-10">My Skills</h2>
         <div className="overflow-x-auto">
           <table className="min-w-full table-auto border border-gray-300 bg-white rounded-lg overflow-hidden">

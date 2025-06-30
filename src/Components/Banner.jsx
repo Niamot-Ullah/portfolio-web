@@ -6,7 +6,7 @@ import { FaFacebook, FaGithub } from "react-icons/fa";
 const Banner = () => {
   return (
     <div className="">
-      <div className="hero bg-base-200 py-0 md:py-20 ">
+      <div className="hero bg-base-200 py-0 md:py-15">
         <div className="hero-content flex gap-7 lg:gap-24 flex-col md:flex-row-reverse  w-11/12 md:w-10/12 mx-auto">
           <img
             src={image}

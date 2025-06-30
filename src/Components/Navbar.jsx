@@ -7,9 +7,9 @@ const Navbar = () => {
      const link = (
         <>
             <li> <a className='font-semibold'> Home</a></li>
-            <li ><a className='font-semibold' href='#About'>About Me</a></li>
+            <li ><a className='font-semibold' href='#about'>About Me</a></li>
             <li><a className='font-semibold' href='#skills'>Skills</a></li>
-            <li><a className='font-semibold'>Contact</a></li>
+            <li><a className='font-semibold' href='#contact'>Contact</a></li>
         </>
     )
   return (
